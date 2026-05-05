@@ -236,7 +236,6 @@ TOP_K = 20 # anomaly scoring
 ### Performance Tips
 - Use mixed precision training for memory efficiency
 - Crop 20px borders during evaluation to reduce artifacts
-- Apply enhancement selectively (test + 15% train) to avoid overfitting
 
 ## Roadmap
 

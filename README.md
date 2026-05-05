@@ -93,7 +93,7 @@ Skip Connection + CBAM Attention
 - **Attention**: CBAM (Channel + Spatial) in decoder stages  
 - **Loss**: Composite 0.15×MSE + 0.85×SSIM
 - **Training**: AdamW, 25 epochs, batch size 16
-- **Result**: Poor generalization, useful as negative control
+- **Result**: Poor generalization
 
 ### 2️ Deep Feature Reconstruction (DFR)
 Input → EfficientNet-B6 → Multi-scale Features → Feature Autoencoder → Anomaly Score
